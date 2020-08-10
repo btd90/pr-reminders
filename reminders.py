@@ -27,6 +27,10 @@ COMMENTS = '/comments'
 COMMITS = '/commits'
 PULL_REQUESTS = '/pull-requests'
 
+# Optional request headers
+REQUEST_GET_HEADER = ''
+REQUEST_POST_HEADER = ''
+
 # Datetime Constants
 TODAY = datetime.datetime.today()
 TWODAYS = datetime.timedelta(days=2)
@@ -73,7 +77,10 @@ def main():
 # Perform GET Request
 def queryBitbucket(url):
     try:
-        response = requests.get(url);
+        if REQUEST_GET_HEADER:
+            response = requests.get(url, REQUEST_GET_HEADER);
+        else:
+            response = requests.get(url);
     except:
         exit(1);
 
@@ -91,7 +98,10 @@ def postToBitbucket(prID, comment):
     data = { "text": comment };
 
     try:
-        response = requests.post(url, data);
+        if REQUEST_POST_HEADER:
+            response = requests.post(url, data, REQUEST_POST_HEADER);
+        else:
+            response = requests.post(url, data);
     except:
         exit(1);
 
