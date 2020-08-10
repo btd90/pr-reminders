@@ -1,0 +1,16 @@
+{
+    "size": 1,
+    "limit": 25,
+    "isLastPage": true,
+    "values": [
+        {
+            "state": "SUCCESSFUL",
+            "key": "REPO",
+            "name": "MY-REPO-MASTER",
+            "url": "https://build.example.com/browse/MY-REPO-MASTER",
+            "description": "Changes by Will",
+            "dateAdded": 1594089529787
+        }
+    ],
+    "start": 0
+}

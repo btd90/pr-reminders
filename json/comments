@@ -1,0 +1,51 @@
+{
+    "properties": {
+        "key": "value"
+    },
+    "id": 1,
+    "version": 1,
+    "text": "A reply",
+    "author": {
+        "name": "sam",
+        "emailAddress": "sam@address.com",
+        "id": 1011,
+        "displayName": "Sam",
+        "active": true,
+        "slug": "sam",
+        "type": "NORMAL"
+    },
+    "createdDate": 1359089920,
+    "updatedDate": 1359089930,
+    "comments": [
+        {
+            "properties": {
+                "key": "value"
+            },
+            "id": 1,
+            "version": 1,
+            "text": "A comment",
+            "author": {
+                "name": "mike",
+                "emailAddress": "mike@address.com",
+                "id": 1011,
+                "displayName": "Mike",
+                "active": true,
+                "slug": "mike",
+                "type": "NORMAL"
+            },
+            "createdDate": 1359079920,
+            "updatedDate": 1359079930,
+            "comments": [],
+            "tasks": [],
+            "permittedOperations": {
+                "editable": true,
+                "deletable": true
+            }
+        }
+    ],
+    "tasks": [],
+    "permittedOperations": {
+        "editable": true,
+        "deletable": true
+    }
+}
