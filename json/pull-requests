@@ -1,0 +1,123 @@
+{
+    "size": 1,
+    "limit": 25,
+    "isLastPage": true,
+    "values": [
+        {
+            "id": 101,
+            "version": 1,
+            "title": "My first PR",
+            "description": "All of the changes",
+            "state": "OPEN",
+            "open": true,
+            "closed": false,
+            "createdDate": 1359079920,
+            "updatedDate": 1359089920,
+            "fromRef": {
+                "id": "refs/heads/feature-NEW-FEATURE",
+                "repository": {
+                    "slug": "REPO",
+                    "name": null,
+                    "project": {
+                        "key": "PRJ"
+                    }
+                }
+            },
+            "toRef": {
+                "id": "refs/heads/master",
+                "repository": {
+                    "slug": "REPO",
+                    "name": null,
+                    "project": {
+                        "key": "PRJ"
+                    }
+                }
+            },
+            "locked": false,
+            "author": {
+                "user": {
+                    "name": "will",
+                    "emailAddress": "will@address.com",
+                    "id": 115029,
+                    "displayName": "Will",
+                    "active": true,
+                    "slug": "will",
+                    "type": "NORMAL"
+                },
+                "role": "AUTHOR",
+                "approved": true,
+                "status": "APPROVED"
+            },
+            "reviewers": [
+                {
+                    "user": {
+                        "name": "sam",
+                        "emailAddress": "sam@address.com",
+                        "id": 1011,
+                        "displayName": "Sam",
+                        "active": true,
+                        "slug": "sam",
+                        "type": "NORMAL"
+                    },
+                    "lastReviewedCommit": "12345678",
+                    "role": "REVIEWER",
+                    "approved": true,
+                    "status": "APPROVED"
+                },
+                {
+                    "user": {
+                        "name": "mike",
+                        "emailAddress": "mike@address.com",
+                        "id": 2101,
+                        "displayName": "Mike",
+                        "active": true,
+                        "slug": "mike",
+                        "type": "NORMAL"
+                    },
+                    "lastReviewedCommit": "12345678",
+                    "role": "REVIEWER",
+                    "approved": true,
+                    "status": "APPROVED"
+                }
+            ],
+            "participants": [
+                {
+                    "user": {
+                        "name": "ash",
+                        "emailAddress": "ash@address.com",
+                        "id": 3083191,
+                        "displayName": "Ash",
+                        "active": true,
+                        "slug": "ash",
+                        "type": "NORMAL"
+                    },
+                    "role": "PARTICIPANT",
+                    "approved": false,
+                    "status": "UNAPPROVED"
+                },
+                {
+                    "user": {
+                        "name": "bob",
+                        "emailAddress": "bob@address.com",
+                        "id": 99049190,
+                        "displayName": "Bob",
+                        "active": true,
+                        "slug": "bob",
+                        "type": "NORMAL"
+                    },
+                    "role": "PARTICIPANT",
+                    "approved": true,
+                    "status": "APPROVED"
+                }
+            ],
+            "links": {
+                "self": [
+                    {
+                        "href": "http://sample.com/pullrequest"
+                    }
+                ]
+            }
+        }
+    ],
+    "start": 0
+}

@@ -1,0 +1,2 @@
+# Runs reminders.py from /opt/ at 1am Monday to Friday
+00 1 * * 1-5 /usr/bin/python /opt/reminders.py

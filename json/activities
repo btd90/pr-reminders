@@ -1,0 +1,109 @@
+{
+    "size": 3,
+    "limit": 25,
+    "isLastPage": true,
+    "values": [
+        {
+            "id": 1012,
+            "createdDate": 1359065920,
+            "user": {
+                "name": "will",
+                "emailAddress": "will@address.com",
+                "id": 115029,
+                "displayName": "Will",
+                "active": true,
+                "slug": "will",
+                "type": "NORMAL"
+            },
+            "action": "COMMENTED",
+            "commentAction": "ADDED",
+            "comment": {
+                "properties": {
+                    "key": "value"
+                },
+                "id": 1,
+                "version": 1,
+                "text": "A reply",
+                "author": {
+                    "name": "will",
+                    "emailAddress": "will@address.com",
+                    "id": 115029,
+                    "displayName": "Will",
+                    "active": true,
+                    "slug": "will",
+                    "type": "NORMAL"
+                },
+                "createdDate": 1548720847370,
+                "updatedDate": 1548720847370,
+                "comments": [
+                    {
+                        "properties": {
+                            "key": "value"
+                        },
+                        "id": 1,
+                        "version": 1,
+                        "text": "A comment",
+                        "author": {
+                            "name": "will",
+                            "emailAddress": "will@address.com",
+                            "id": 115029,
+                            "displayName": "Will",
+                            "active": true,
+                            "slug": "will",
+                            "type": "NORMAL"
+                        },
+                        "createdDate": 1548720847365,
+                        "updatedDate": 1548720847365,
+                        "comments": [],
+                        "tasks": [],
+                        "permittedOperations": {
+                            "editable": true,
+                            "deletable": true
+                        }
+                    }
+                ],
+                "tasks": [],
+                "permittedOperations": {
+                    "editable": true,
+                    "deletable": true
+                }
+            },
+            "commentAnchor": {
+                "line": 1,
+                "lineType": "CONTEXT",
+                "fileType": "FROM",
+                "path": "path/to/file",
+                "srcPath": "path/to/file"
+            }
+        },
+        {
+            "id": 1013,
+            "createdDate": 1359065920,
+            "user": {
+                "name": "sam",
+                "emailAddress": "sam@address.com",
+                "id": 1013,
+                "displayName": "Sam",
+                "active": true,
+                "slug": "sam",
+                "type": "NORMAL"
+            },
+            "action": "APPROVED"
+        },
+        {
+            "id": 1014,
+            "createdDate": 1359085920,
+            "user": {
+                "name": "mike",
+                "emailAddress": "mike@address.com",
+                "id": 1014,
+                "displayName": "Mike",
+                "active": true,
+                "slug": "mike",
+                "type": "NORMAL"
+            },
+            "action": "REVIEWED"
+        }
+    ],
+    "start": 0
+}
