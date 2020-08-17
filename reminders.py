@@ -158,7 +158,7 @@ def analyzePRTimes(prID, pullRequestJSON):
 
     # Store time differences and period last updated
     prAge = TODAY - createdDate;
-    updatePeriod = updatedDate - createdDate;
+    updatePeriod = TODAY - updatedDate;
 
     # Check if PR is older than 10 days
     if (prAge > TENDAYS):
